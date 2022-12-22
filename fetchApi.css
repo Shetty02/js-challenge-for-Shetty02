@@ -1,0 +1,24 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#my-btn{
+    border-radius: 5px;
+    font-size: 22px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+#table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 10px;    
+    text-align: center;
+}
+#table td, #table th { 
+    border: 1px solid;      
+    text-align: center;
+}
