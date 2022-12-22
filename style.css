@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.user{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.registration-form {
+    background-color: #0c0c0c;
+    color: #fff;
+    width: 800px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 10px 10px 30px;
+}
+.button-wrapper{
+    text-align: center;
+    margin-top: 15px;
+}
+#button{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center; 
+    background-color: #bc9864;
+    color: #000;  
+      font-weight: 600;
+}
+.tablecontainer{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid; 
+    margin-bottom: 10px;
+  }
+  #table td, #table th { 
+        border: 1px solid;      
+        text-align: center;
+  }
+ .api{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+ }
+ #fecthingApi{
+    text-decoration: none;
+ }
